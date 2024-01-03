@@ -27,5 +27,21 @@ const diviationSum = (arr) => {
 };
 
 const variance = (diviationSum, arr) => {
-  return diviationSum / (arr.length - 1);
+  return diviationSum /(arr.length - 1);
 };
+
+const varianceSquareRoot = (variance) => {
+  return Math.sqrt(variance);
+};
+
+const standardDiviation = (arr) => {
+  const means = mean(arr);
+  const meanDeviations = meanDeviation(arr, means);
+  const squareDiviations = squareDiviation(meanDeviations);
+  const diviationSums = diviationSum(squareDiviations);
+  const variances = variance(diviationSums, arr);
+  const varianceSquareRoots = varianceSquareRoot(variances);
+  console.log(varianceSquareRoots);
+};
+
+standardDiviation(arr);
