@@ -1,4 +1,4 @@
-# Math_Utilities.md
+# Math_Utilities
 
 # Standard Deviation Calculator
 
