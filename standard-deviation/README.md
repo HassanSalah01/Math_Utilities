@@ -8,11 +8,11 @@ No installation is required. You can run the code directly in a JavaScript envir
 
 **Usage**
 
-2.  Open a JavaScript console or create a JavaScript file.
-3.  Paste the code into the console or file.
-4.  Define an array of numbers you want to calculate the standard deviation for.
-5.  Call the `standardDiviation` function, passing the array as an argument.
-6.  The standard deviation will be printed to the console.
+1.  Open a JavaScript console or create a JavaScript file.
+2.  Paste the code into the console or file.
+3.  Define an array of numbers you want to calculate the standard deviation for.
+4.  Call the `standardDiviation` function, passing the array as an argument.
+5.  The standard deviation will be printed to the console.
 
 **Example :**
 
